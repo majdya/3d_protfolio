@@ -26,4 +26,5 @@ const Experience = () => {
   );
 };
 
-export default SectionWrapper(Experience, "work");
+const WCS = SectionWrapper(Experience, "work");
+export default WCS;

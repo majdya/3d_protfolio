@@ -13,19 +13,19 @@ export const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt={experience.company_name}
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[100%] h-[100%] object-fill rounded-full"
         />
       </div>
     }
   >
     <div>
       <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
-      <p
+      <a href={experience.site} target="_blank"
         className="text-secondary text-[16px] font-semibold"
         style={{ margin: 0 }}
       >
         {experience.company_name}
-      </p>
+      </a>
     </div>
     <ul className="mt-5 list-disc ml-5 spacey-2">
       {experience.points.map((point, index) => (

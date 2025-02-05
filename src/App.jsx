@@ -11,7 +11,7 @@ import {
   Contact,
   StarsCanvas,
 } from "./components";
-import Footer from "./components/Footer";
+// import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>

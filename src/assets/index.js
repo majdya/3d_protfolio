@@ -26,6 +26,12 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
+import feelit from "./company/feelit1.png";
+import lynxight from "./company/lynxight1.jpeg";
+import hola from "./company/hola.png";
+import kav_mashve from "./company/kav_mashve.png";
+import Shield34 from "./company/Shield34.webp";
+
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -59,4 +65,9 @@ export {
   carrent,
   jobit,
   tripguide,
+  feelit,
+  lynxight,
+  hola,
+  kav_mashve,
+  Shield34,
 };

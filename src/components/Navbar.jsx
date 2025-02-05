@@ -29,7 +29,9 @@ const Navbar = () => {
           />
           <p className="text-white text-[18px] font-bold cursor-pointer flex">
             Majd &nbsp;{" "}
-            <span className="sm:block hidden">|&nbsp; JS Master </span>
+            <span className="sm:block hidden">
+              |&nbsp; Solution Engineer ⚙️{" "}
+            </span>
           </p>
         </Link>
 

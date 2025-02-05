@@ -11,6 +11,7 @@ import {
   Contact,
   StarsCanvas,
 } from "./components";
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <BrowserRouter>
@@ -22,13 +23,14 @@ const App = () => {
         <About />
         <Experience />
         <Tech />
-        <Works />
-        <Feedbacks />
+        {/* <Works /> */}
+        {/* <Feedbacks /> */}
         <div className="relative  z-0">
           <Contact />
           <StarsCanvas />
         </div>
       </div>
+      {/* <Footer /> */}
     </BrowserRouter>
   );
 };

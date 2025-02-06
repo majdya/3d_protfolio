@@ -19,8 +19,9 @@ const Hero = () => {
             Hi, I`m <span className="text-[#915eff]">Majd</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Think twice, Code once! <br className="sm:block hidden" />
-            💻 Code. 🚀 Scale. 🔁Repeat.
+            ⚙️ Solution Engineer
+            <br className="sm:block hidden" />
+            Think twice, Code once!{" "}
           </p>
         </div>
       </div>

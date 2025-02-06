@@ -36,6 +36,12 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import angular from "./tech/front/angular.png";
+import grafana from "./tech/front/grafana.png";
+import nextjs from "./tech/front/nextjs.png";
+import vuejs from "./tech/front/vuejs.png";
+import expo from "./tech/front/expo.webp";
+
 export {
   logo,
   backend,
@@ -58,10 +64,13 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  // front
+  angular,
+  grafana,
+  nextjs,
+  vuejs,
+  expo,
+  //
   carrent,
   jobit,
   tripguide,

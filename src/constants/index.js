@@ -15,10 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
@@ -28,6 +24,11 @@ import {
   kav_mashve,
   Shield34,
   hola,
+  expo,
+  nextjs,
+  grafana,
+  angular,
+  vuejs,
 } from "../assets";
 
 export const navLinks = [
@@ -119,6 +120,55 @@ const technologies = [
   },
 ];
 
+const frontendTech = [
+  {
+    name: "html",
+    icon: html,
+  },
+  {
+    name: "css",
+    icon: css,
+  },
+  {
+    name: "javascript",
+    icon: javascript,
+  },
+  {
+    name: "reactjs",
+    icon: reactjs,
+  },
+  {
+    name: "expo",
+    icon: expo,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  },
+  {
+    name: "redux",
+    icon: redux,
+  },
+  {
+    name: "tailwind",
+    icon: tailwind,
+  },
+  {
+    name: "grafana",
+    icon: grafana,
+  },
+  {
+    name: "angular",
+    icon: angular,
+  },
+  {
+    name: "vuejs",
+    icon: vuejs,
+  },
+];
+const backendTech = [];
+const devops = [];
+const general = [];
 const experiences = [
   {
     title: "Senior Software Developer",
@@ -288,4 +338,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  frontendTech,
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+};
